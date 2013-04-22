@@ -2,7 +2,7 @@
   "name": "workflow",
   "title": "workflow",
   "description": "A jQuery plugin to assist in creating dynamic workflow webpages.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Ben Johnson",
     "email": "bwj.johnson@gmail.com"
