@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+  <script type='text/javascript' src='jquery.workflow.js'></script>
+</head>
+<body>
+
+<div id='workflow'> </div>
+
+<script>
+$('#workflow').workflow({
+    html: 'toplevel initial html<br/>',
+    dflt: 'the optional default for the toplevel option',
+    options: [{
+        option: 'first option',
+        dflt: 'default for the sub-options for the first option',
+        options: [{
+            option: 'first sub-option to the first option',
+            html: 'html for the endpoint of the first sub-option to the first option'
+        }, {
+            option: 'second sub-option to the first option',
+            html: 'html for the endpoint of the second sub-option to the first option'
+        }, {
+            option: 'third sub-option to the first option',
+            html: 'html for the endpoint of the thrid sub-option to the first option'
+        }]
+    }, {
+        option: 'second option',
+        html: 'html for the endpoint of the second option'
+    }, {
+        option: 'thrid option',
+        options: [{
+            option: 'first sub-option to the third option',
+            html: 'html for the endpoint of the first sub-option to the third option'
+        }, {
+            option: 'second sub-option to the third option',
+            html: 'html for the endpoint of the second sub-option to the third option'
+        }, {
+            option: 'third sub-option to the third option',
+            html: 'some arbitrary html before the next set of options<br />',
+            options: [{
+                option: 'first sub-sub-option to the third sub-option to the third option',
+                html: 'html for the endpoint of the first sub-sub-option to the third sub-option to the third option'
+            }, {
+                option: 'second sub-sub-option to the third sub-option to the third option',
+                html: 'html for the endpoint of the second sub-sub-option to the third sub-option to the third option'
+            }]
+        }]
+    }]
+});
+</script>
+
+</body>
+</html>

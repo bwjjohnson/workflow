@@ -1,4 +1,4 @@
 workflow
 ========
 
-A jQuery plugin to assist in creating dynamic workflow websites.
+A jQuery plugin to assist in creating dynamic workflow webpages.

@@ -1,0 +1,25 @@
+{
+  "name": "workflow",
+  "title": "workflow",
+  "description": "A jQuery plugin to assist in creating dynamic workflow webpages.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ben Johnson",
+    "email": "bwj.johnson@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bwjjohnson/workflow.git"
+  },
+  "bugs": "https://github.com/bwjjohnson/workflow/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=2.0.0"
+  },
+  "keywords": ["workflow", "jquery"]
+}
